@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Página-1" id="k1T9NaOZ6xBvciaVhLuH">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6lMnZ2JC9FG_jR7Fk7Ld-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6lMnZ2JC9FG_jR7Fk7Ld-1" target="6lMnZ2JC9FG_jR7Fk7Ld-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6lMnZ2JC9FG_jR7Fk7Ld-1" value="Entrada&lt;div&gt;JSON - Parquet - YAML&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="151.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6lMnZ2JC9FG_jR7Fk7Ld-7" value="Processamento" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=none;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];whiteSpace=wrap;html=1;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="345" width="296" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6lMnZ2JC9FG_jR7Fk7Ld-8" value="carregamento" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="6lMnZ2JC9FG_jR7Fk7Ld-7">
+          <mxGeometry x="10" y="10" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6lMnZ2JC9FG_jR7Fk7Ld-9" value="vetorização " style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="6lMnZ2JC9FG_jR7Fk7Ld-7">
+          <mxGeometry x="98" y="10" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6lMnZ2JC9FG_jR7Fk7Ld-10" value="consultas" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="6lMnZ2JC9FG_jR7Fk7Ld-7">
+          <mxGeometry x="186" y="10" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6lMnZ2JC9FG_jR7Fk7Ld-13" value="Streamlit" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="370" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6lMnZ2JC9FG_jR7Fk7Ld-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6lMnZ2JC9FG_jR7Fk7Ld-10" target="6lMnZ2JC9FG_jR7Fk7Ld-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6lMnZ2JC9FG_jR7Fk7Ld-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6lMnZ2JC9FG_jR7Fk7Ld-15" target="6lMnZ2JC9FG_jR7Fk7Ld-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6lMnZ2JC9FG_jR7Fk7Ld-15" value="Modelo BERT e base FAISS" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="430" y="375" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
